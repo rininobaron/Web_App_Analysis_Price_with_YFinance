@@ -1,4 +1,5 @@
 import os
+import pip
 def modulesCheck(modules_list):
 	'''
 	This function check if a module like "pandas" is 
