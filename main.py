@@ -1,6 +1,6 @@
 import pandas as pd
 import yfinance as yf
-from yahoofinancials import YahooFinancials
+#from yahoofinancials import YahooFinancials
 #from get_all_tickers import get_tickers as gt
 
 ticker = input("Introduzca un YAHOO TICKER: ")
