@@ -1,3 +1,10 @@
+#Verify if necessary libraries are installed
+from modulesCheck.modulesCheck import modulesCheck
+
+modules = ['pandas', 'yfinance']
+
+modulesCheck(modules)
+
 import pandas as pd
 import yfinance as yf
 #from yahoofinancials import YahooFinancials
