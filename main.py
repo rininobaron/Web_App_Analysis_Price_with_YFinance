@@ -5,11 +5,14 @@ modules = ['pandas', 'yfinance']
 
 modulesCheck(modules)
 
+# Import libraries with convinient aliases
 import pandas as pd
 import yfinance as yf
 #from yahoofinancials import YahooFinancials
 #from get_all_tickers import get_tickers as gt
 
+print()
+print()
 ticker = input("Introduzca un YAHOO TICKER: ")
 print()
 print("Introduzca los siguientes datos.")
