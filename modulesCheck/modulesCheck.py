@@ -11,7 +11,7 @@ def modulesCheck(modules_list):
 	for module in modules_list:
 		try:
 			__import__(module)
-		except e:
+		except Exception as e:
 			print(e)
 			print()
 			print('Installing ', module, ' ...')
